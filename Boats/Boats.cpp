@@ -1,4 +1,5 @@
 ﻿// задача https://acmp.ru/index.asp?main=task&id_task=869
+// test for git
 #include <iostream>
 #include <fstream>
 using namespace std;
