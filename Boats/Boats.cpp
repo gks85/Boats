@@ -42,7 +42,7 @@ int main()
 		weight[i] = maxWeight(weight, n, i);
 	minIndex = n - 1;
 
-	while (maxIndex < minIndex) {
+	while (maxIndex <= minIndex) {
 		int inter = d - weight[maxIndex];
 		maxIndex++;
 		boat++;
